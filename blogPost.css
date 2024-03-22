@@ -1,0 +1,76 @@
+/* Resetting default margin and padding */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap');
+
+:root {
+  --primary-color: #988F2A;
+  --primary-color-dark: #d8cf6e;
+  --secondary-color: #f9fafe;
+  --text-color: #333333;
+  --white: #ffffff;
+  --gray: #d3d3d3;
+  --max-width: 1500px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--secondary-color);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Main container */
+.container {
+  max-width: var(--max-width);
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #00004d;
+}
+
+/* Paragraph styles */
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #00004d;
+}
+
+/* Image styles */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 40px auto;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  color: #00004d;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
